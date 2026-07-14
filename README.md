@@ -23,7 +23,28 @@ El principal desafío técnico resuelto fue la transición de validaciones basad
 El sistema opera bajo un enfoque de seguridad lógica donde el estado inicial de toda sucursal se establece estrictamente como falso (Cerrado). La bandera cambia a verdadero (Abierto) únicamente si la hora del sistema en la zona horaria configurada cumple de forma exacta con los rangos numéricos de la jornada actual o la extensión de madrugada del día anterior.
 
 ---
+Plan de Mejoras Futuras
+Con el fin de escalar el proyecto hacia una infraestructura de nivel de producción, se plantean las siguientes optimizaciones de ingeniería de software:
 
+Migración a una Arquitectura de Microservicios (Backend): Desarrollar una API REST en Node.js o Python para centralizar la lógica de negocio y proteger las consultas de datos, eliminando la exposición de archivos de configuración locales en el cliente.
+
+Persistencia de Preferencias del Usuario: Implementar el uso de Web Storage (LocalStorage) para almacenar la última sucursal seleccionada por el cliente, optimizando los tiempos de carga en visitas recurrentes.
+
+Módulo de Geolocalización Automatizado: Integrar la API de Geolocalización del navegador para calcular mediante la fórmula de Haversine la distancia lineal entre la ubicación del usuario y las coordenadas de los locales, ordenando la cuadrícula automáticamente por cercanía física.
+
+Sistema de Caché e Infraestructura PWA: Transformar la aplicación en una Progressive Web App (PWA) mediante la configuración de un Service Worker, permitiendo que la interfaz cargue de manera instantánea y muestre la información básica incluso en condiciones de conectividad nula o inestable.
+
+Tecnologías Utilizadas
+HTML5 Semántico
+
+Tailwind CSS (v3)
+
+JavaScript Vanilla (ES6+)
+
+JSON (JavaScript Object Notation)
+
+FontAwesome Icons (v6)
+---
 ## Estructura del Repositorio
 
 ```text
@@ -32,4 +53,5 @@ jiren-sushi-web/
 │   └── localesJiren.json   # Base de datos local parametrizada en minutos
 ├── index.html              # Estructura semántica avanzada y layout corporativo
 ├── app.js                  # Motor de control horario y enrutamiento interno
-└── README.md               # Documentación técnica del proyecto# JirenSushi-App
+└── README.md               # Documentación técnica del proyecto# JirenSushi-App.
+
