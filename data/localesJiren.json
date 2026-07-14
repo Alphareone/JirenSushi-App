@@ -1,0 +1,74 @@
+[
+  {
+    "id": "quilpue",
+    "nombre": "Jiren Sushi Quilpué",
+    "direccion": "Blanco Encalada 1294, Quilpué",
+    "horario": "L-J: 12:00 a 22:30 | V-S: 12:00 a 23:00 | D: 12:00 a 22:30",
+    "horarios_control": {
+      "semana": { "abre": 720, "cierra": 1350 },
+      "finDeSemana": { "abre": 720, "cierra": 1380 },
+      "domingo": { "abre": 720, "cierra": 1350 }
+    },
+    "imagen": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnMU5h_lpVWSU_wGADrsYvPHj4UChAW6_pvmpxO_TPOoKxU9YUnGiNU9C7tzOJHmHe__GraRenH7qOQYnQQZo_Ygt5Bn_kFn5zp0XFe6Cw1CY3L6E4hQ2RWsf1snabK_kKb1WB4=s1360-w1360-h1020-rw"
+  },
+  {
+    "id": "vina",
+    "nombre": "Jiren Sushi Viña del Mar",
+    "direccion": "5 Norte 615, Viña del Mar",
+    "horario": "L-J: 11:00 a 23:00 | V-S: 11:00 a 00:00 | D: 13:00 a 19:30",
+    "horarios_control": {
+      "semana": { "abre": 660, "cierra": 1380 },
+      "finDeSemana": { "abre": 660, "cierra": 1440 },
+      "domingo": { "abre": 780, "cierra": 1170 }
+    },
+    "imagen": "https://lh3.googleusercontent.com/grass-cs/ACvplmOTXdpGv3pNjc4L7WVZ6tGH5QmyAfdhLB-WuFwA0nLEiid40VEdHQZ04J55ukKAvTM21YWEb2lXhZ0vzTCjcixv6CKGbMeqQ7yNS93FiV2iI7ekaX5_9_uhS0k341-MuV5woepugVqBdqWr=s1360-w1360-h1020-rw"
+  },
+  {
+    "id": "renaca",
+    "nombre": "Jiren Sushi Almirante Lynch",
+    "direccion": "Calle Almirante Lynch 37, Reñaca",
+    "horario": "L-J: 12:00 a 22:30 | V-S: 12:00 a 23:00 | D: 12:00 a 22:30",
+    "horarios_control": {
+      "semana": { "abre": 720, "cierra": 1350 },
+      "finDeSemana": { "abre": 720, "cierra": 1380 },
+      "domingo": { "abre": 720, "cierra": 1350 }
+    },
+    "imagen": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmXuQL1kJ-xT_CrC-kzivCq0Yuinr5mSNaEjCzGFQm84DWwUMQxz0rofrOK0VRkfHx3EUwaEazdZIFakadzd7SLawGqZq4OPUczsA2ntirpoWoNFSOy7uTJlR1ttvzZ3pnpgYTP-A=s1360-w1360-h1020-rw"
+  },
+  {
+    "id": "valparaiso",
+    "nombre": "Jiren Sushi Av. Pedro Montt",
+    "direccion": "Av. Pedro Montt 2222, Valparaíso",
+    "horario": "L-Mi: 11:00 a 23:30 | J-S: 11:00 a 01:00 | D: 12:00 a 20:00",
+    "horarios_control": {
+      "semana": { "abre": 660, "cierra": 1410 },
+      "finDeSemana": { "abre": 660, "cierra": 1500 }, 
+      "domingo": { "abre": 720, "cierra": 1200 }
+    },
+    "imagen": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkMkOrFRDu9rMoH_SrjhkNO3Bc5ExinY3lnTbhGRx7RF_RvZ-qhDuCP_UDlzlhiZOEkvU1Q_Ow_d_ZRBac7R9Bgbqiyz2VvUxPEYLlQcGyANqPzTOF-Qafil_5BNSKzAk48KMs=s1360-w1360-h1020-rw"
+  },
+  {
+    "id": "placilla",
+    "nombre": "Jiren Sushi Placilla",
+    "direccion": "Av. Fundadores 660, Placilla",
+    "horario": "L-J: 11:00 a 22:30 | V-S: 11:00 a 23:00 | D: 12:00 a 22:30",
+    "horarios_control": {
+      "semana": { "abre": 660, "cierra": 1350 },
+      "finDeSemana": { "abre": 660, "cierra": 1380 },
+      "domingo": { "abre": 720, "cierra": 1350 }
+    },
+    "imagen": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRNqTPr6vTFtZU7wMAlcspVtP5v9GKOwXdAL7BF-BPOKkW7avvaaSUurCzPrzCPNVnid-PYdDhvk-cksBQ28N5WK-RUacUmHBQCm-N3Zm93P3c8tX3vejcFiEClUmEDykywrFRA1O7YuRC=s1360-w1360-h1020-rw"
+  },
+  {
+    "id": "quillota",
+    "nombre": "Jiren Sushi Quillota",
+    "direccion": "Av. 21 de Mayo 35, Quillota",
+    "horario": "L-J: 12:00 a 22:00 | V-S: 12:00 a 22:30 | D: 12:30 a 21:00",
+    "horarios_control": {
+      "semana": { "abre": 720, "cierra": 1320 },
+      "finDeSemana": { "abre": 720, "cierra": 1350 },
+      "domingo": { "abre": 750, "cierra": 1260 }
+    },
+    "imagen": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmMhulGK-kPy9W6OOTEqMh48pNHhhXJdbxZLXsYPJA5Qm0kAAn9kaq1G12C2XnjpXQFz_oJkqEjHV9s479EoxwhNMeWZcGFSZO0YsTmPH9nmHGwehMhQrMvcsync2T0Db2uaff7mVUI9tiw=s680-w680-h510-rw"
+  }
+]
